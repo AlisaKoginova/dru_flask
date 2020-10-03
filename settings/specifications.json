@@ -1,0 +1,39 @@
+{
+    "description":{
+        "X": [
+            "rotting_flesh",
+            "has_soul",
+            "hair_length",
+            "black",
+            "white",
+            "blue",
+            "clear",
+            "green",
+            "blood"
+        ],
+        "final_columns":[
+            "rotting_flesh",
+            "has_soul",
+            "hair_length",
+            "white",
+            "blue",
+            "clear",
+            "green",
+            "blood"
+                ],
+        "y":"bone_length",
+        "metrics":"mean_absolute_percentage_error"
+    },
+
+    "operations":[
+    {
+            "operation_number":1,
+            "operation_name":"drop_columns",
+            "params":{
+                "in_columns":[
+                    "black"
+                ]
+            }
+        }
+    ]
+}
